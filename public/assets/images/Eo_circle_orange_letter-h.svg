@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Hexagon border -->
+  <polygon points="32,2 62,16 62,48 32,62 2,48 2,16" fill="none" stroke="#64FFB4" stroke-width="4"/>
+  
+  <!-- H inside the hexagon -->
+  <text x="50%" y="50%" font-size="36" font-weight="bold" fill="#64FFB4" text-anchor="middle" dominant-baseline="middle" font-family="Arial">H</text>
+</svg>
