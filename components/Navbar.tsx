@@ -114,7 +114,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href='/assets/HarshBansal_Resume7.4.pdf' target='_blank'>
+          <a href='/assets/HarshBansal_Resume_7.4.pdf' target='_blank'>
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -211,7 +211,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href='/assets/HarshBansal_Resume7.4.pdf' target='_blank'>
+                <a href='/assets/HarshBansal_Resume_7.4.pdf' target='_blank'>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
