@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id='about'
-      className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8 px-9'
+      className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8 px-12 '
     >
       <SectionTitle title='About Me' titleNo='01' />
       <div className='flex flex-col lgl:flex-row gap-16'>

@@ -8,6 +8,7 @@ import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
+            className="hidden lg:inline-flex w-32 h-full fixed left-0 bottom-0 "
           >
             <LeftSide />
           </motion.div>
@@ -37,14 +38,16 @@ export default function Home() {
             <Projects />
             <Archive />
             <Contact />
+            <Footer/>
           </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
+            className="hidden lg:inline-flex w-32 h-full fixed right-0 bottom-0 "
           >
             <RightSide />
+        
           </motion.div>
         </div>
       </main>
